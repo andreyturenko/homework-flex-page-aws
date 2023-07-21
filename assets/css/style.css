@@ -1,10 +1,11 @@
 body {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
+  font-size: 17.6px;
 }
 
 header {
@@ -35,3 +36,46 @@ header {
   background: #eaeaea;
   color: #333;
 }
+
+img {
+  width: 100%;
+  height: auto;
+  /* display: block; */
+}
+
+.contacts .content {
+  padding: 2em;
+  color: #fff;
+}
+
+.contacts a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contacts .content:first-child {
+  background: #2690d4;
+}
+
+.about .content {
+  padding: 2em;
+}
+
+.about .content:first-child {
+  background: #333;
+}
+
+/*Footer*/
+
+.links-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 2em;
+}
+
+.links-footer a {
+  color: #2690d4;
+  text-decoration: none;
+}
+
+/*Footer*/
