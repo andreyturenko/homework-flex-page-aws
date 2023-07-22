@@ -88,25 +88,21 @@ img {
 
 /*Footer*/
 
-.links-footer {
+.links {
   background-color: #000000;
   color: #fff;
+  font-size: 0;
+}
+
+.links-child1,
+.links-child2 {
+  display: inline-block;
+  width: calc(100% / 2);
+  font-size: 17.6px;
   padding: 2em;
 }
 
-.links-footer a {
+.links-child2 a {
   color: #2690d4;
   text-decoration: none;
 }
-
-.links-child1 {
-  display: inline-block;
-  width: 50%;
-}
-
-.links-child2 {
-  display: inline-block;
-  width: 50%;
-}
-
-/*Footer*/
