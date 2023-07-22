@@ -20,12 +20,11 @@ header {
   background-size: cover;
   background-position: top;
   padding-top: 100px;
-  text-align: center;
   color: #fff;
 }
 
 header h1 {
-  padding-bottom: 20px;
+  padding: 0 30px 20px;
 }
 
 header p {
@@ -54,6 +53,11 @@ header a {
   color: #333;
 }
 
+#offers {
+  background: #333;
+  padding: 35.2px 17.6px 17.6px;
+}
+
 .development {
   padding: 0 1.5em;
 }
@@ -68,21 +72,16 @@ header a {
   padding: 0 0 35.2px;
 }
 
-#offers {
-  background: #333;
-  padding: 35.2px 17.6px 17.6px;
-}
-
 .content-wrapper {
   display: inline-block;
-  width: 260px;
+  width: 272.8px;
   background: #fff;
-  margin: 0 5px 20px;
+  margin: 0 8px 20px;
 }
 
 img {
   display: inline-block;
-  width: 260px;
+  width: 272.8px;
 }
 
 .content-wrapper h3 {
@@ -90,7 +89,7 @@ img {
 }
 
 .content-wrapper p {
-  padding: 0 20px 50px 20px;
+  padding: 0 25px 50px 25px;
 }
 
 .responsibility {
@@ -99,12 +98,11 @@ img {
 
 .responsibility h2 {
   margin: 50px 0;
-  padding: 10px 0;
 }
 
 .responsibility p {
-  max-width: 850px;
-  padding: 0 0 40px;
+  max-width: 950px;
+  padding: 0 30px 40px 30px;
 }
 
 .content {
