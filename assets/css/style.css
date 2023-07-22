@@ -5,6 +5,7 @@
 }
 
 body {
+  display: inline-block;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
@@ -12,7 +13,7 @@ body {
 }
 
 header {
-  height: 350px;
+  height: 450px;
   background-color: #333;
   background-image: url("./../imgs/bgFirst-page.jpeg");
   background-repeat: no-repeat;
@@ -21,7 +22,20 @@ header {
   padding-top: 100px;
   text-align: center;
   color: #fff;
-  font-size: 17.6px;
+}
+
+header h1 {
+  padding-bottom: 20px;
+}
+
+header p {
+  margin: 0 auto;
+  padding: 0 30px 20px;
+  max-width: 900px;
+}
+
+header a {
+  display: block;
 }
 
 .button {
@@ -40,36 +54,57 @@ header {
   color: #333;
 }
 
-h2 {
-  padding: 1em 0;
-  padding-bottom: 2em;
+.development {
+  padding: 0 1.5em;
+}
+
+.development h2 {
+  padding: 26.4px 0;
+}
+
+.development p {
+  display: inline-block;
+  max-width: 400px;
+  padding: 0 0 35.2px;
 }
 
 #offers {
   background: #333;
-  padding: 2em 1em 1em;
+  padding: 35.2px 17.6px 17.6px;
 }
 
 .content-wrapper {
   display: inline-block;
-  width: 250px;
+  width: 260px;
   background: #fff;
-  margin: 0 5px 5px;
+  margin: 0 5px 20px;
 }
 
 img {
   display: inline-block;
-  width: 250px;
+  width: 260px;
 }
 
-/* img {
-  width: 100%;
-  height: auto;
-  display: inline-block;
-} */
+.content-wrapper h3 {
+  margin: 50px 0;
+}
 
-.content-wrapper {
+.content-wrapper p {
+  padding: 0 20px 50px 20px;
+}
+
+.responsibility {
   display: inline-block;
+}
+
+.responsibility h2 {
+  margin: 50px 0;
+  padding: 10px 0;
+}
+
+.responsibility p {
+  max-width: 850px;
+  padding: 0 0 40px;
 }
 
 .content {
@@ -83,11 +118,16 @@ img {
   font-size: 17.6px;
   background: #2690d4;
   color: #fff;
-  padding: 35.2px;
+  padding: 50px 20px 50px 20px;
 }
 
 .child2 {
   background: #333;
+}
+
+.child1 h2,
+.child1 p {
+  padding: 15px 0 30px 0;
 }
 
 .contacts-about a {
